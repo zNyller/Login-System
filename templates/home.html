@@ -1,0 +1,25 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <style>
+            .center_container {
+                display: flex;
+                justify-content: center; /* Centraliza horizontalmente */
+                align-items: center; /* Centraliza verticalmente */
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Acessar</h1>
+
+        <div class="center_container">
+            <!-- Botão para cadastrar-se -->
+            <a href="/cadastro"><button>Cadastrar-se</button></a>
+            <!-- Botão para fazer login -->
+            <a href="/login"><button>Fazer Login</button></a>
+        </div>
+    </body>
+</html>

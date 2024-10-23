@@ -1,0 +1,21 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+
+    <body>
+        <h1>Fazer Login</h1>
+
+        <form method="post">
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="text" name="password" required>
+
+            <input type="submit" value="Entrar">
+        </form>
+    </body>
+</html>

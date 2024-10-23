@@ -11,6 +11,18 @@ h1 {
     margin: 30px;
 }
 
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+    margin: 5px;
+}
+
 form {
     background-color: #fff;
     max-width: 500;
@@ -48,4 +60,3 @@ input[type="submit"]:hover {
     background-color: #218838;
 }
 }
-
